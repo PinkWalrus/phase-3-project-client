@@ -53,7 +53,7 @@ function ShoppingList() {
   });
 
   return (
-    <div>
+    <div id="main">
       <img className="header" alt="logo" src={header} />
       <AddProductForm onAddProduct={addProduct} />
       <FilterCategory onCategoryChange={changeCategory} />
