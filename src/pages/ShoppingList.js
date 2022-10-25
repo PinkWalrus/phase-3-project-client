@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import AddProductForm from "./AddProductForm";
-import FilterCategory from "./FilterCategory";
-import Product from "./Product";
+import AddProductForm from "../components/AddProductForm";
+import FilterCategory from "../components/FilterCategory";
+import Product from "../components/Product";
 
 import header from "../assets/shopping-list-01.svg";
 
